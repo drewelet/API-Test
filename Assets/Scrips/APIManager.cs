@@ -81,7 +81,7 @@ public class APIManager : MonoBehaviour
         currentPokemonName = CapitalizeFirstLetter(pokemonName);
         currentPokemonType = CapitalizeFirstLetter(pokemonTypeName[0]);
 
-        inputField.text = "Pokemon Name: " + currentPokemonName + "\r\nPokemon Type: " + currentPokemonType + "\r\nPokemon ID Numer: " + currentIndex;
+        inputField.text = "Pokemon Name: " + currentPokemonName + "\r\nPokemon Type: " + currentPokemonType + "\r\nPokemon ID Number: " + currentIndex;
     }
 
     //CapitalizeFirstLetter Function -- Capitalize first character of string
